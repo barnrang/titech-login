@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "login",
+  "description": "Titech login",
+  "version": "1.1",
+  "applications": {
+    "gecko": {
+      "id": "lol@mozilla.org"
+    }
+  },
+
+  "content_scripts": [{
+    "matches": ["*://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=idg_key*"],
+    "js": ["Titechlogin.js"]
+  }]
+}
