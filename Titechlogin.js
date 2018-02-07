@@ -1,8 +1,8 @@
-var element = document.getElementsByName("login")[0]
+var element = document.getElementsByName("login")[0];
 var table = element.getElementsByTagName("table")[1]
-var first = table.rows[4].cells[0].innerText
-var second = table.rows[5].cells[0].innerText
-var third = table.rows[6].cells[0].innerText
+var first = table.rows[3].innerText.trim()
+var second = table.rows[4].innerText.trim()
+var third = table.rows[5].innerText.trim()
 
 
 /*
